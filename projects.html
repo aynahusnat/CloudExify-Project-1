@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Ayna Husnat</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="projects-body">
+    <main class="page-shell panel">
+        <header class="topbar">
+            <a class="brand" href="index.html">Ayna<span>Husnat</span></a>
+            <button class="menu-toggle" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-links" id="navLinks" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a class="active" href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+                <button class="theme-toggle" id="themeToggle" type="button">Theme</button>
+            </nav>
+        </header>
+
+        <section class="content-page projects-page">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Project design</p>
+                <h1>Selected <span>projects</span></h1>
+                <div class="filter-buttons" aria-label="Project filters">
+                    <button class="active" data-filter="all">All</button>
+                    <button data-filter="html">HTML/CSS</button>
+                    <button data-filter="js">JavaScript</button>
+                    <button data-filter="react">React</button>
+                </div>
+            </div>
+
+            <div class="project-grid project-page-grid">
+                <article class="project-card reveal" data-tags="html,css">
+                    <div class="project-preview">
+                        <img src="assets/portfolio-visual.svg" alt="E-commerce website preview">
+                    </div>
+                    <h3>E-commerce Website</h3>
+                    <p>A responsive shopping layout with product cards, clean spacing, and mobile-friendly structure.</p>
+                </article>
+
+                <article class="project-card reveal" data-tags="js">
+                    <div class="project-preview">
+                        <img src="assets/dashboard-visual.svg" alt="Weather app dashboard preview">
+                    </div>
+                    <h3>Weather App</h3>
+                    <p>A JavaScript application concept using user input, API-style data flow, and validation states.</p>
+                </article>
+
+                <article class="project-card reveal" data-tags="react">
+                    <div class="project-preview">
+                        <img src="assets/mobile-visual.svg" alt="Currency converter mobile app preview">
+                    </div>
+                    <h3>Currency Converter App</h3>
+                    <p>A React-style mobile interface for currency conversion with a simple, task-focused design.</p>
+                </article>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2026 Ayna Husnat</p>
+        </footer>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
