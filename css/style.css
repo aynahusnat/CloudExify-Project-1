@@ -521,6 +521,26 @@ body.theme-dark .bar {
 }
 
 @media (max-width: 980px) {
+    body,
+    body.home-page,
+    body.about-body,
+    body.projects-body,
+    body.contact-body {
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
+    }
+
+    .site-shell,
+    .page-shell,
+    .projects-body .page-shell,
+    .contact-body .page-shell,
+    .about-body .page-shell {
+        height: auto;
+        min-height: 100vh;
+        overflow: visible;
+    }
+
     .editorial-shell,
     .about-page,
     .contact-page,
