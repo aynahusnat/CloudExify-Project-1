@@ -434,6 +434,11 @@ body.theme-dark .bar {
     display: none;
 }
 
+.project-github {
+    display: flex;
+    justify-content: center;
+}
+
 .project-card h3 {
     margin: 14px 0 6px;
     font-size: 24px;
