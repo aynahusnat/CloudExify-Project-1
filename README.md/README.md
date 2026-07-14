@@ -7,7 +7,7 @@ Personal Portfolio Website
 ## Student / Developer Information
 
 **Name:** Ayna Husnat  
-**Email:** [aynahusnat19@mail.com](mailto:aynahusnat@mail.com)  
+**Email:** [aynahusnat@mail.com](mailto:aynahusnat@mail.com)  
 **LinkedIn:** [ayna-husnat-4aa2a4397](https://www.linkedin.com/in/ayna-husnat-4aa2a4397)
 
 ## Project Introduction
@@ -64,7 +64,7 @@ The contact page containing Ayna Husnat's contact information and professional p
 
 ## Design Summary
 
-The website follows a clean editorial style with Times New Roman typography. The current color system uses a full-screen skin-toned interface, caramel project sections, warm brown text, and a separate dark caramel theme with strong contrast.
+The website follows a clean editorial style with Times New Roman typography. The current color system uses a full-screen skin-toned interface, softly darker content panels, warm brown text, and a separate blue dark theme with strong contrast.
 
 ## JavaScript Functionality
 
